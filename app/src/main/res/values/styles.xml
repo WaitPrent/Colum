@@ -1,0 +1,28 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+
+    <declare-styleable name="ColumnarViewStyle">
+        <attr name="narTxtSize" format="dimension" /> <!-- 字体大小 -->
+        <attr name="narTxtColor" format="color" /> <!-- 字体颜色 -->
+        <attr name="narColumnBackdrop" format="color"/><!-- 柱体颜色 -->
+        <attr name="narColumnMargin" format="dimension" /> <!-- 柱状的外边距 -->
+        <attr name="narColumnHeight" format="dimension" /><!-- 柱状的高度 -->
+        <attr name="narColumnFontTop" format="dimension" /><!-- 柱体距离文字的高度 -->
+        <attr name="narBackdrop" format="color"/><!-- 框颜色 -->
+        <attr name="narWidth" format="dimension" /> <!-- 外框线的宽度 -->
+        <attr name="narMarginLeft" format="dimension" /> <!-- 外边距左 -->
+        <attr name="narMarginRight" format="dimension" /> <!-- 外边距右 -->
+        <attr name="narMarginTop" format="dimension" /> <!-- 外边距上 -->
+        <attr name="narMarginBottom" format="dimension" /> <!-- 外边距下 -->
+        <attr name="narFull" format="integer" /> <!-- 柱满值计算标准 -->
+        <attr name="narRadius" format="dimension" /><!--圆弧半径-->
+    </declare-styleable>
+</resources>

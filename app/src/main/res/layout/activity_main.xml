@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <com.example.myapplication.ColumnarView
+        android:id="@+id/columnar_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="7dp"
+        app:narBackdrop="#4185F4"
+        app:narColumnBackdrop="#4185F4"
+        app:narColumnMargin="4dp"
+        app:narMarginBottom="5dp"
+        app:narMarginLeft="10dp"
+        app:narMarginRight="10dp"
+        app:narMarginTop="5dp"
+        app:narRadius="11dp"
+        app:narTxtColor="#29353B"
+        app:narTxtSize="12dp"
+        app:narWidth="0.3dp" />
+
+</LinearLayout>
